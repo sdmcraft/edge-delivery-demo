@@ -38,6 +38,9 @@ indices:
       pagename:
         select: head > meta[name="pagename"]
         value: attribute(el, "content")
+      robots:
+        select: head > meta[name="robots"]
+        value: attribute(el, "content")
       type:
         select: head > meta[name="type"]
         value: attribute(el, "content")
